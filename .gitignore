@@ -1,0 +1,5 @@
+.env
+PROJECT_PLAN.md
+venv
+__pycache__
+docker-compose.yml
