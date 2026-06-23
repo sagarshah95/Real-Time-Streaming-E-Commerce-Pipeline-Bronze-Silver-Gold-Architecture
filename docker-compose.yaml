@@ -111,7 +111,7 @@ services:
       - .env
     environment:
       - SPARK_NO_DAEMONIZE=true
-      - SPARK_WORKER_MEMORY=2g
+      - SPARK_WORKER_MEMORY=6g
       - SPARK_WORKER_CORES=4
     volumes:
       - ./spark_jobs:/opt/spark_jobs
